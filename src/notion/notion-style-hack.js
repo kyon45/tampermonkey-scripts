@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Notion Style Hack
 // @namespace    http://tampermonkey.net/
-// @version      2024.3.2-alpha.1
+// @version      2024.3.2-alpha.2
 // @description  Notion Style Hack
 // @author       Kyon45
 // @match        *://www.notion.so/*
@@ -41,7 +41,7 @@
       border-color: ${COLOR['LINK_!']};
 
       &::after {
-        content: " 🡕";
+        content: "🡕";
         display: inline;
       }
   }
